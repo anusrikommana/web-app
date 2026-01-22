@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="High performance NGINX web application" />
+
+  <title>NGINX High Performance App</title>
+
+  <!-- Critical CSS (inline for speed) -->
+  <style>
+    :root {
+      --bg: #0f172a;
+      --fg: #e5e7eb;
+      --accent: #38bdf8;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    main {
+      text-align: center;
+      padding: 2rem;
+      max-width: 720px;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 1rem;
+    }
+    p {
+      opacity: 0.85;
+      line-height: 1.6;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+
+  <!-- Preload hint -->
+  <link rel="preconnect" href="/" />
+</head>
+
+<body>
+  <main>
+    <h1>🚀 NGINX Web App</h1>
+    <p>
+      This is a high-performance HTML page served by <strong>NGINX</strong>.
+      Optimized for speed, simplicity, and scalability.
+    </p>
+
+    <footer>
+      <p>
+        Powered by <a href="https://nginx.org" target="_blank">NGINX</a>
+      </p>
+    </footer>
+  </main>
+
+  <!-- Non-blocking JS -->
+  <script defer>
+    // Lightweight example script
+    console.log("NGINX app loaded successfully");
+  </script>
+</body>
+</html>
